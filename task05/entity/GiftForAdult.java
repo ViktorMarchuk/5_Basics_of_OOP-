@@ -25,6 +25,7 @@ public class GiftForAdult extends Gift implements ActionWithGift{
             System.out.println("-" + arr[i]);
         }
     }
+     @Override
     public String addDrink(){
         return "For adult need add 1 bottle of vine";
     }
