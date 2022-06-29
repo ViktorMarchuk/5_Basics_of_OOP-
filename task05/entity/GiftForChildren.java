@@ -28,7 +28,7 @@ public class GiftForChildren extends Gift implements ActionWithGift{
             System.out.println("-" + arr[i]);
         }
     }
-
+     @Override
     public String addDrink(){
         return "For children need add 1 bottle of Pepsi";
     }
