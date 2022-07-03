@@ -2,7 +2,7 @@ package by.epam.task05.entity;
 
 import java.util.Arrays;
 
-public class Gift{
+public abstract class Gift{
     private String pack;
     private String[] sweets;
     private int[] price;
