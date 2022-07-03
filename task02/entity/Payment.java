@@ -3,6 +3,10 @@ package by.epam.task02.entity;
 public class Payment{
     private String type_Of_payment;
     Product product;
+    
+     public Payment(){
+        
+    }
 
     public Payment(String type_Of_payment){
         this.type_Of_payment = type_Of_payment;
@@ -56,7 +60,10 @@ public class Payment{
         String productName;
         String manufacturer;
         double price;
-
+        
+        public Product(){
+            
+        }
 
         public Product(String productName, String manufacturer, double price){
             this.productName = productName;
